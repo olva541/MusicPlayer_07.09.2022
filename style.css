@@ -1,0 +1,297 @@
+body
+{
+    background: rgb(23, 33, 49);
+}
+.wraper
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    min-width: 375px;
+    min-height: 812px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone
+{
+    position: relative;
+
+    width: 375px;
+    height: 812px;
+    border-radius: 24px;
+    overflow: hidden;
+
+    color: #fff;
+}
+.phone__bg
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.phone__bg img
+{
+    height: 812px;
+    opacity: 0.2;
+}
+.phone__bg .bg
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background: linear-gradient(216deg,
+        #f51371 7.36%,
+        #221a55 99.32%);
+    mix-blend-mode: overlay;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.phone__bg .bSphere
+{
+    position: absolute;
+    bottom: -363px;
+    left: -33px;
+    right: -32px;
+
+    width: 440px;
+    height: 440PX;
+    border-radius: 50%;
+    
+    background: #fff;
+    opacity: 0.1;
+}
+.phone__content
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.phone__content header
+{
+    position: relative;
+    z-index: 2;
+
+    padding: 0 14.67px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: #fff;
+}
+.phone__content header p
+{
+    margin-left: 19px;
+}
+.phone__content header .info
+{
+    display: flex;
+    justify-content: space-between;
+
+    width: 66.66px;
+}
+.phone__content header .info .Batery
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 25px;
+}
+.phone__content header .info .Batery div
+{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 22px;
+    height: 11.33px;
+}
+.phone__content header .info .Batery div .low
+{
+    position: absolute;
+    top: 1.6px;
+    left: 2px;
+    right: 2px;
+    bottom: 1.6px;
+}
+.phone__content .phone__supperior
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.phone__content .phone__supperior .supperior__playing
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 334px;
+    
+    font-size: 12px;
+}
+.phone__content .art-wraper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 417px;
+}
+.art-wraper .out_radial
+{
+    position: relative;
+    justify-content: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 296px;
+    height: 296px;
+    border-radius: 50%;
+
+    border: 5px solid rgba(250, 250, 250, 0.5);
+
+    /* transform: rotate(180deg); */
+}
+.art-wraper .out_radial img
+{
+    position: relative;
+    z-index: 2;
+}
+.art-wraper .out_radial .down_radial
+{
+    position: absolute;
+    bottom: -16px;
+
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    border: 2px solid rgba(82, 47, 209, 0.63);
+}
+.art-wraper .out_radial .right_radial
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+
+    border: 5px solid #5642DD;
+    background: #FF32C7;
+}
+.bottom_wraper
+{
+    position: relative;
+    
+    width: 100%;
+}
+.bottom_wraper .text
+{
+    position: relative;
+    height: 52px;
+}
+.bottom_wraper .text h6
+{
+    position: absolute;
+    bottom: 0;
+
+    text-align: center;
+
+    font-size: 20px;
+    width: 100%;
+    height: 20px;
+}
+.bottom_wraper .text p
+{
+    position: absolute;
+    top: 0;
+
+    text-align: center;
+
+    font-size: 12px;
+    width: 100%;
+    height: 12px;
+}
+.nav_wraper
+{
+    position: absolute;
+    top: 0px;
+    left: 63px;
+    right: 63px;
+}
+.bottom_wraper .navigate
+{
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 248px;
+}
+.buttons_wraper
+{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+.buttons_wraper .buttons
+{
+    position: relative;
+    top: 20px;
+    
+
+    width: 220px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.foot
+{
+    position: absolute;
+    bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+.foot .div
+{
+    position: relative;
+    font-size: 12px;
+}
+.dsd
+{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+}
+.dsd img
+{
+    position: absolute;
+    top: -10px;
+}
